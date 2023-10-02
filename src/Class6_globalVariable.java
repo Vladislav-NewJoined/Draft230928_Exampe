@@ -1,6 +1,6 @@
 //источник: https://qaa-engineer.ru/kak-peredat-peremennuyu-iz-odnogo-metoda-v-drugoj-java/
-public class Class6 {
-    public static int counter;
+public class Class6_globalVariable {
+    public static int counter; // это глобальная переменная
 
     public static void main(String[] args) {
         counter = 0;
