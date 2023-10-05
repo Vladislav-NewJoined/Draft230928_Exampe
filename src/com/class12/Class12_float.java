@@ -1,3 +1,5 @@
+package com.class12;
+
 //источник: https://youtu.be/O-69kG6-wxw
 public class Class12_float {
 
