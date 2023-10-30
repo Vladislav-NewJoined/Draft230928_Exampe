@@ -1,5 +1,5 @@
-package Class25;
 // источник: https://www.cyberforum.ru/java-j2se/thread1981757.html
+package Class25;
 
 public class Cat extends Animal {
     public static Cat cat1Clone;
