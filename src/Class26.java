@@ -65,3 +65,11 @@ class MaxFinder {
 
     }
 }
+
+class SampleClass {
+    public static void main(String[] args) {
+        Class26 sc = new Class26();
+        System.out.println(sc.maxFinder(5,8));
+
+    }
+}
