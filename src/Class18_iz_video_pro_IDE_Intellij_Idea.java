@@ -1,7 +1,5 @@
 // источник: https://youtu.be/tpv5n2jWHlw
 
-import java.io.StringReader;
-
 public class Class18_iz_video_pro_IDE_Intellij_Idea {
 
 // Из видео про Intellij idea:
@@ -26,7 +24,7 @@ public class Class18_iz_video_pro_IDE_Intellij_Idea {
 //        String[] actual = Sorter.loadAndSort(new StringReader("b\na\nc"));
         String[] expected = {"a", "b", "c"};
 //        assertArrayEquals(expected, actual);
-        Person person = new Person ();
+        Person person = new Person("Bob");
     }
 }
 
@@ -37,4 +35,13 @@ public class Class18_iz_video_pro_IDE_Intellij_Idea {
 //}
 
 class Person {
+    private String name;
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
