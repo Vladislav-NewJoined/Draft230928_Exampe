@@ -1,5 +1,5 @@
 // источник: https://www.cyberforum.ru/java-j2se/thread1981757.html
-package Class25;
+package class25;
 
 public class Dog {
     public static void main(String[] args) {
